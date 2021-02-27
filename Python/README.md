@@ -7,7 +7,7 @@ Helix is a Command-Line program written in Python which identifies a person base
 The program works by analysing Short Tandem Repeats (STRs)–short sequences of DNA bases present in a person's DNA which
 tend to repeat. Helix reads a user-specified DNA sequence along with a CSV file containing STR counts for various individuals
 into memory. Ultimately, the program obtains the counts of various STRs present in the DNA and if they match to a person in
-the database, the name of the matching individual will be output to the terminal. 
+the database, the name of the matching individual will be output to the terminal, otherwise, "No Match" will be output instead. 
 
 ## Getting Started
 
@@ -19,9 +19,13 @@ the database, the name of the matching individual will be output to the terminal
 ```
 unzip Helix-master.zip
 ```
-4. Change into the ```Helix-master``` directory by executing the following command:
+4. Delete the archive using the following command:
 ```
-cd Helix-master
+rm Helix-master.zip
+```
+5. Change into the ```Helix-master/Python``` directory by executing the following command:
+```
+cd Helix-master/Python
 ```
 
 ### Execution
@@ -31,7 +35,11 @@ cd Helix-master
 python Helix.py <database> <sequence>
 ```
 where ```database``` is one of the databases storing the STR counts of different individuals, located in the ```Databases``` 
-directory and ```sequence``` is the DNA sequence we seek to analyse to determine a match, located in the ```Sequences``` directory.
+directory and ```sequence``` is the DNA sequence we seek to analyse to determine a match, located in the ```Sequences``` directory. For example,
+```
+python Helix.py Databases/Large.csv Sequences/15.txt
+```
+The expected output for the above is ```Sirius```.
 
 ## Author
 
