@@ -13,19 +13,19 @@ the database, the name of the matching individual will be output to the terminal
 
 ### Installation
 
-1. Install the ```Helix``` archive by downloading [```Helix-master.zip```](https://github.com/tchitete1/Helix/archive/master.zip)
+1. Install the ```helix``` archive by downloading [```helix-master.zip```](https://github.com/tchitete1/helix/archive/master.zip)
 2. Open a new terminal window in the directory where the archive was downloaded
-3. Unzip the archive using the following command to obtain the ```Helix-master``` directory:
+3. Unzip the archive using the following command to obtain the ```helix-master``` directory:
 ```
-unzip Helix-master.zip
+unzip helix-master.zip
 ```
 4. Delete the archive using the following command:
 ```
-rm Helix-master.zip
+rm helix-master.zip
 ```
-5. Change into the ```Helix-master/Python``` directory by executing the following command:
+5. Change into the ```helix-master/Python``` directory by executing the following command:
 ```
-cd Helix-master/Python
+cd helix-master/Python
 ```
 
 ### Execution
