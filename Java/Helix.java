@@ -17,10 +17,10 @@ public class Helix {
             String[][] database = Reader.readDatabase(args[0]);
             String sequence = Reader.readSequence(args[1]);
 
-            // Prepares to profile <sequence> using STRs found in Small.csv
+            // Prepares to profile <sequence> using STRs found in small.csv
             String[] shortTandemRepeats;
             int[] shortTandemRepeatCounts;
-            if (args[0].equals("Databases/Small.csv")) {
+            if (args[0].equals("databases/small.csv")) {
                 shortTandemRepeatCounts = new int[3];
                 shortTandemRepeats = new String[] {
                     "AGATC",
@@ -28,7 +28,7 @@ public class Helix {
                     "TATC"
                 };
             }
-            // Prepares to profile <sequence> using STRs found in Large.csv
+            // Prepares to profile <sequence> using STRs found in large.csv
             else {
                 shortTandemRepeatCounts = new int[8];
                 shortTandemRepeats = new String[] {

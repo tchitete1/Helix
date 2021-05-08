@@ -20,7 +20,7 @@ def main():
 
         shortTandemRepeatCounts = []
         # Prepares to profile <sequence> using STRs found in Small.csv
-        if sys.argv[1] == "Databases/Small.csv":
+        if sys.argv[1] == "databases/small.csv":
             shortTandemRepeats = [
                 "AGATC",
                 "AATG",
