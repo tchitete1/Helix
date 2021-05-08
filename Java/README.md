@@ -40,10 +40,10 @@ javac *.java
 ```
 java Helix <database> <sequence>
 ```
-where ```database``` is one of the databases storing the STR counts of different individuals, located in the ```Databases``` 
-directory and ```sequence``` is the DNA sequence we seek to analyse to determine a match, located in the ```Sequences``` directory. For example,
+where ```database``` is one of the databases storing the STR counts of different individuals, located in the ```databases``` 
+directory and ```sequence``` is the DNA sequence we seek to analyse to determine a match, located in the ```sequences``` directory. For example,
 ```
-java Helix Databases/Large.csv Sequences/9.txt
+java Helix databases/large.csv sequences/9.txt
 ```
 The expected output for the above is ```Draco```.
 
