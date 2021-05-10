@@ -1,6 +1,6 @@
 # Helix
 
-Helix is a Command-Line program written in Python which identifies a person based on a sample of their DNA profile
+```helix``` is a Command-Line program written in Python which identifies a person based on a sample of their DNA profile
 
 ## Description
 
@@ -23,28 +23,28 @@ unzip helix-master.zip
 ```
 rm helix-master.zip
 ```
-5. Change into the ```helix-master/Python``` directory by executing the following command:
+5. Change into the ```helix-master/python``` directory by executing the following command:
 ```
-cd helix-master/Python
+cd helix-master/python
 ```
 
 ### Execution
 
-* To execute ```Helix```, execute the following:
+* To execute ```helix```, execute the following:
 ```
-python Helix.py <database> <sequence>
+python helix.py <database> <sequence>
 ```
-where ```database``` is one of the databases storing the STR counts of different individuals, located in the ```Databases``` 
-directory and ```sequence``` is the DNA sequence we seek to analyse to determine a match, located in the ```Sequences``` directory. For example,
+where ```database``` is one of the databases storing the STR counts of different individuals, located in the ```databases``` 
+directory and ```sequence``` is the DNA sequence we seek to analyse to determine a match, located in the ```sequences``` directory. For example,
 ```
-python Helix.py Databases/Large.csv Sequences/15.txt
+python helix.py databases/large.csv sequences/15.txt
 ```
 The expected output for the above is ```Sirius```.
 
 ## Author
 
 Tanaka Chitete
-* [Linkedin](https://www.linkedin.com/in/tanaka-chitete/)
+* [LinkedIn](https://www.linkedin.com/in/tanaka-chitete/)
 
 ## Acknowledgments
 
