@@ -8,7 +8,7 @@ LAST MODIFICATION: 25/02/2021
 
 import csv
 import sys
-from Profiler import findMaxShortTandemRepeatCounts, findMatch
+from profiler import findMaxShortTandemRepeatCounts, findMatch
 
 def main():
     if len(sys.argv) != 3:
